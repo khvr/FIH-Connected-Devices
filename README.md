@@ -9,6 +9,5 @@
 Hub & Spoke is used because we are doing most of the processing locally and just having remote cloud for analytics(* Future Scope)
 * Overhead is placed on Server (CoAP Protocol) which handles the data and forward to edge device & cloud service using MQTT protocol
 * Cloud Service : Ubidots Cloud is used to capture the data and store in its DB.
-Smart Lighting System (SLS) Yogesh Suresh
 * Edge Tier : Actuation(MQTT Subscriber) & Sensing(CoAP Client) comes in this tier
 * Gateway Tier : CoAP server & MQTT publisher (cloud ,Actuator) for sits here
